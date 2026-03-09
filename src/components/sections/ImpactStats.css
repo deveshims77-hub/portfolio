@@ -1,0 +1,64 @@
+.impact-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  max-width: 620px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 720px;
+}
+
+.impact-card {
+  border-radius: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  padding: 1.2rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.impact-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.impact-metric {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.impact-role {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.impact-badge {
+  align-self: flex-start;
+  margin-top: 0.35rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 1024px) {
+  .impact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .impact-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+

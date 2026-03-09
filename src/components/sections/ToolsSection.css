@@ -1,0 +1,29 @@
+.tools-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  max-width: 620px;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  max-width: 720px;
+}
+
+.tool-pill {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .tools-grid {
+    max-width: 100%;
+  }
+}
+

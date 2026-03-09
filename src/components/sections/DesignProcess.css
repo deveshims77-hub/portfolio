@@ -1,0 +1,46 @@
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 720px;
+}
+
+.process-card {
+  border-radius: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  padding: 1.2rem 1.3rem;
+}
+
+.process-step {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.process-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.process-description {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 1024px) {
+  .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
