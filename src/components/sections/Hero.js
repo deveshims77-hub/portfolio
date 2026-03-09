@@ -12,7 +12,7 @@ const Hero = () => {
   const { theme } = useTheme();
   const avatarRef = useRef(null);
   const largeAvatarRef = useRef(null);
-  const profileImage = '/nidhi.jpg'; // Reference from public folder
+  const profileImage = '/devesh.jpg'; // Reference from public folder
   
   useEffect(() => {
     const avatar = avatarRef.current;

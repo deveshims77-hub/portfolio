@@ -219,12 +219,6 @@ export const content = {
         company: 'Coto',
         role: 'Product Design Researcher (Internship)',
         time: 'Oct 2022 - Dec 2022'
-      },
-      {
-        id: 4,
-        company: 'Coding Blocks',
-        role: 'Creative Designer (Internship)',
-        time: 'Apr 2022 - Sep 2022'
       }
     ]
   },

@@ -228,12 +228,12 @@ const InstantMediaDetail = () => {
             <div className="im-ba-screenshots">
               <div className="im-ba-screen">
                 <span className="im-ba-screen-tag before">Before</span>
-                <img src="/images/im-upload-empty.png" alt="Empty media upload screen — listing blocked, waiting for photos" className="im-screenshot" />
+                <img src="/images/im-upload-empty.png" alt="Empty media upload screen — listing blocked, waiting for media" className="im-screenshot" />
                 <p className="im-screenshot-caption">Upload screen sits empty. No media = no listing. Dealer waits for the photoshoot.</p>
               </div>
               <div className="im-ba-screen">
                 <span className="im-ba-screen-tag after">After</span>
-                <img src="/images/im-trigger.png" alt="Instant Media trigger — Go live instantly banner with matched stock images" className="im-screenshot" />
+                <img src="/images/im-trigger.png" alt="Instant Media trigger — Go live instantly banner with matched stock media" className="im-screenshot" />
                 <p className="im-screenshot-caption">Instant Media surfaces in context — "Go live instantly with your media library" with matched vehicles ready to use.</p>
               </div>
             </div>
@@ -322,12 +322,12 @@ const InstantMediaDetail = () => {
             <div className="im-flow-screenshots">
               <div className="im-flow-screen">
                 <span className="im-flow-screen-step">Step 1 — YMMT Input</span>
-                <img src="/images/im-ymmt-input.png" alt="YMMT input form — enter Year, Make, Model, Trim to find matching stock images" className="im-screenshot" />
+                <img src="/images/im-ymmt-input.png" alt="YMMT input form — enter Year, Make, Model, Trim to find matching stock media" className="im-screenshot" />
                 <p className="im-screenshot-caption">Year, Make, Model, Trim input with Find Matches</p>
               </div>
               <div className="im-flow-screen">
                 <span className="im-flow-screen-step">Step 2 — Finding Matches</span>
-                <img src="/images/im-finding-match.png" alt="Loading state — finding best matching vehicle images from library" className="im-screenshot" />
+                <img src="/images/im-finding-match.png" alt="Loading state — finding best matching vehicle media from library" className="im-screenshot" />
                 <p className="im-screenshot-caption">Matching against Rooftop Library or OEM catalog</p>
               </div>
               <div className="im-flow-screen">
@@ -337,7 +337,7 @@ const InstantMediaDetail = () => {
               </div>
               <div className="im-flow-screen">
                 <span className="im-flow-screen-step">Step 4 — Live</span>
-                <img src="/images/im-live-listing.png" alt="Live listing with representative images and Not an Actual Vehicle transparency badge" className="im-screenshot" />
+                <img src="/images/im-live-listing.png" alt="Live listing with representative media and Not an Actual Vehicle transparency badge" className="im-screenshot" />
                 <p className="im-screenshot-caption">Listing live with transparency badge on every image</p>
               </div>
             </div>
@@ -375,7 +375,7 @@ const InstantMediaDetail = () => {
               </div>
               <div className="im-flow-screen">
                 <span className="im-flow-screen-step">Iteration 3 — Side panel, grid layout</span>
-                <img src="/images/im-iter-3.png" alt="Split layout — upload on left, Cloned Media suggestion panel on right with 2x2 image grid" className="im-screenshot" />
+                <img src="/images/im-iter-3.png" alt="Split layout — upload on left, Cloned Media suggestion panel on right with a 2x2 grid" className="im-screenshot" />
                 <p className="im-screenshot-caption">Persistent side panel kept upload and match selection visible together — but split focus and felt cluttered on smaller viewports.</p>
               </div>
               <div className="im-flow-screen">

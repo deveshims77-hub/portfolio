@@ -314,7 +314,7 @@ const InventoryListingDetail = () => {
                 <span className="im-flow-screen-step">After — Inventory intelligence dashboard</span>
                 <img
                   src="/images/inv-listing-after.png"
-                  alt="Redesigned inventory page — shows 178 vehicles not ready to sell, action item breakdown (No Photos, No 360 Spin, CGI Photos etc), Website Listing Score 7.6, Average Time to Market 13 days, and inventory table with Media and Publishing status columns"
+                  alt="Redesigned inventory page — shows 178 vehicles not ready to sell, action item breakdown (No media, No 360 Spin, CGI media etc), Website Listing Score 7.6, Average Time to Market 13 days, and inventory table with Media and Publishing status columns"
                   className="im-screenshot"
                 />
                 <p className="im-screenshot-caption">
@@ -655,7 +655,7 @@ const InventoryListingDetail = () => {
                 <span className="im-flow-screen-step">Vehicle Detail Page — Actions Required + Publishing Status panel</span>
                 <img
                   src="/images/inv-vdp-detail.png"
-                  alt="Vehicle detail page showing Actions Required panel (No Photos 34, CGI Photos 1, Less than 8 media 34), Publishing Status section with Vauto platform sync states, and main content area with image gallery and vehicle spec details"
+                  alt="Vehicle detail page showing Actions Required panel (No media 34, CGI media 1, Less than 8 media 34), Publishing Status section with Vauto platform sync states, and main content area with media gallery and vehicle spec details"
                   className="im-screenshot"
                 />
                 <p className="im-screenshot-caption">

@@ -13,7 +13,6 @@ import CustomCursor from './components/ui/CustomCursor';
 import ResumeModal from './components/ui/ResumeModal';
 
 import Hero from './components/sections/Hero';
-import DesignProcess from './components/sections/DesignProcess';
 import Projects from './components/sections/Projects';
 import About from './components/sections/About';
 import Experience from './components/sections/Experience';
@@ -40,7 +39,6 @@ const HomePage = ({ onResumeClick }) => (
     <ContrastToggle />
     <Navigation onResumeClick={onResumeClick} />
     <Hero />
-    <DesignProcess />
     <About />
     <Experience />
     <Projects />

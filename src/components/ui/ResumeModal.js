@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import resumePdf from '../../assets/Nidhi-Product-Designer.pdf';
 import './ResumeModal.css';
+
+// PDF served from public folder — add Devesh-Product-Designer.pdf to public/
+const resumePdf = `${process.env.PUBLIC_URL || ''}/Devesh-Product-Designer.pdf`;
 
 const ResumeModal = ({ isOpen, onClose }) => {
   useEffect(() => {
@@ -44,7 +46,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
               <div className="rm-actions">
                 <a
                   href={resumePdf}
-                  download="Nidhi-Product-Designer.pdf"
+                  download="Devesh-Product-Designer.pdf"
                   className="rm-btn rm-btn-download"
                 >
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -79,7 +81,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
             <div className="rm-preview">
               <iframe
                 src={`${resumePdf}#toolbar=0&navpanes=0`}
-                title="Nidhi — Resume"
+                title="Devesh — Resume"
                 className="rm-iframe"
               />
             </div>

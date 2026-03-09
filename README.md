@@ -1,4 +1,4 @@
-# Nidhi's Portfolio - React Version
+# Devesh's Portfolio - React Version
 
 A modern, animated portfolio website built with React and Framer Motion.
 
